@@ -24,4 +24,5 @@ export enum ErrorEntity {
   BUILDER_LICENSE_BAD_THEME = "builder/license/bad-theme",
   BUILDER_UPDATE_DOMAIN_NOT_AUTHORIZED = "builder/websites/update-domain-not-authorized",
   BUILDER_UPDATE_DOMAIN_NOT_URL = "builder/websites/update-domain/no-url",
+  ANALYTICS_PREMIUM_RESERVED = "analytics/premium-reserved"
 }
