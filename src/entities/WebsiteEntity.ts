@@ -8,4 +8,5 @@ export class WebsiteEntity {
   already_activated: boolean;
   index_now_key: string | null;
   index_now_installed: boolean;
+  isPremium: boolean;
 }
