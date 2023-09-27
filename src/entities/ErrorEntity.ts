@@ -35,5 +35,5 @@ export enum ErrorEntity {
   INDEX_NOW_ERROR_KEY_NOT_MATCH = "index-now/key-not-match",
   INDEXATION_MANUALLY_NO_WEBSITE_ID_IN_PAGE = "indexation/manually/no-website-in-page",
   INDEXATION_MANUALLY_NOT_URL = "indexation/manually/not-url",
-  BING_REFRESH_TOKEN = "error/bing/refresh-token",
+  BING_REFRESH_TOKEN = "error/bing/refresh-token"
 }
