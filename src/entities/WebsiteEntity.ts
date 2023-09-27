@@ -6,4 +6,11 @@ export class WebsiteEntity {
   image: string;
   sitemap: string | null;
   already_activated: boolean;
+  index_now_key: string | null;
+  index_now_installed: boolean;
+  is_premium: boolean;
+  is_analytics_activated: boolean;
+  sitemap_updated_at: Date;
+  deleted_at: Date | null;
+  is_public: boolean;
 }
