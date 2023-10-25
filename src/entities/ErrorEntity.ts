@@ -15,6 +15,7 @@ export enum ErrorEntity {
   GOOGLE_AUTH_SCOPE_NOT_FOUND = "google/auth/scope-not-found",
   GOOGLE_AUTH_REFRESH_TOKEN_ERROR = "google/auth/refresh-token-error",
   GOOGLE_INDEXATION_QUOTA_EXCEED = "google/indexation/quota-exceed",
+  GOOGLE_INDEXATION_TRIAL_EXPIRED = "google/indexation/trial-expired",
   WEBSITE_NOT_FOUND = "website/not-found",
   UNKNOWN_ERROR = "global/unknown-error",
   USER_NOT_FOUND = "user/not-found",
