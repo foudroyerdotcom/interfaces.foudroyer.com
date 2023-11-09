@@ -15,5 +15,5 @@ export class WebsiteEntity {
   is_public: boolean;
   indexation_auto_activated: boolean;
   indexation_auto_activated_sources: string[];
-  api_keys: string[]
+  api_keys: string[];
 }
