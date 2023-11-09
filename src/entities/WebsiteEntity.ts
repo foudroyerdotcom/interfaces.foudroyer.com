@@ -1,3 +1,5 @@
+import { IndexationSourceType } from "./PageEntity";
+
 export class WebsiteEntity {
   id: string;
   search_console_domain: string | null;
@@ -13,4 +15,7 @@ export class WebsiteEntity {
   sitemap_updated_at: Date;
   deleted_at: Date | null;
   is_public: boolean;
+  indexation_auto_activated: boolean;
+  indexation_auto_activated_sources: IndexationSourceType[];
+  api_keys: string[];
 }
