@@ -12,7 +12,6 @@ export enum IndexationQueueStatus {
 }
 
 export type IndexationQueueEntity = {
-  id: string;
   fk_website_id: string;
   page: string;
   status: IndexationQueueStatus;
