@@ -1,10 +1,11 @@
 export enum PaymentPlansEntity {
     indexation = "indexation",
-    keywords = "keywords",
-    analytics = "analytics",
     enterprise = "enterprise",
     newbie = "newbie",
-    all = "all"
+    analytics_free = "analytics/free",
+    analytics_beginner = "analytics/beginner",
+    analytics_pro = "analytics/pro",
+    analytics_enterprise = "analytics/enterprise",
 }
 
 export type PaymentPricesEntity = {
@@ -56,9 +57,15 @@ export declare type ProductEntity = {
     vendor_set_prices_included_tax: boolean
   }
 
+export enum PaymentScope {
+    analytics = 'analytics',
+    indexation = 'indexation'
+}
+
 export type PaymentEntity = {
     id: string;
     fk_user_id: string;
+    scope: PaymentScope;
     cancellation_effective_date: Date | null;
     subscription_id: string;
     cancel_url: string;
