@@ -6,7 +6,8 @@
     "preserveConstEnums": true,
     "sourceMap": false,
     "outDir": "dist",
-    "declaration": true
+    "declaration": true,
+    "target": "ES2015"
   },
   "include": ["src"],
   "exclude": ["node_modules"]

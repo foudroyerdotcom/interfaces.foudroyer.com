@@ -8,15 +8,21 @@ export enum PaymentPlansEntity {
   "analytics/enterprise" = "analytics/enterprise",
 }
 
-export const PaddlePlans = {
+export const PaddlePlans: {
+  [key: string]: { 
+    plan: PaymentPlansEntity; 
+    interval: "monthly" | "yearly" ,
+    level: number
+  };
+} = {
   /**
-   * 
-   * 
-   * 
+   *
+   *
+   *
    * Indexation
-   * 
-   * 
-   * 
+   *
+   *
+   *
    */
   "858335": {
     plan: PaymentPlansEntity.newbie,
@@ -49,13 +55,13 @@ export const PaddlePlans = {
     level: 3,
   },
   /**
-   * 
-   * 
-   * 
+   *
+   *
+   *
    * Analytics
-   * 
-   * 
-   * 
+   *
+   *
+   *
    */
   "875973": {
     plan: PaymentPlansEntity["analytics/beginner"],
@@ -89,6 +95,22 @@ export const PaddlePlans = {
     interval: "yearly",
     level: 3,
   },
+};
+
+export const findPlanByNameAndInterval = (params: {
+  interval: string;
+  planName: string;
+}) => {
+  const keys = Object.keys(PaddlePlans);
+
+  const planId = keys.find((key: keyof typeof PaddlePlans) => {
+    const plan = PaddlePlans[key];
+    if (plan.interval === params.interval && plan.plan === params.planName)
+      return true;
+    return false;
+  });
+
+  return PaddlePlans[planId];
 };
 
 export type PaymentPricesEntity = {
