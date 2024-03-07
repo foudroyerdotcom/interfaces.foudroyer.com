@@ -2,10 +2,10 @@ export enum PaymentPlansEntity {
     indexation = "indexation",
     enterprise = "enterprise",
     newbie = "newbie",
-    analytics_free = "analytics/free",
-    analytics_beginner = "analytics/beginner",
-    analytics_pro = "analytics/pro",
-    analytics_enterprise = "analytics/enterprise",
+    "analytics/free" = "analytics/free",
+    "analytics/beginner" = "analytics/beginner",
+    "analytics/pro" = "analytics/pro",
+    "analytics/enterprise" = "analytics/enterprise"
 }
 
 export type PaymentPricesEntity = {
