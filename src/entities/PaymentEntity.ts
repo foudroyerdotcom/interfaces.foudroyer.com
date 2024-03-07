@@ -10,18 +10,11 @@ export enum PaymentPlansEntity {
 
 export type PaymentPricesEntity = {
   currency: string
-  indexation: {
-    monthly: number
-    yearly: number
-  }
-  enterprise: {
-    monthly: number
-    yearly: number
-  }
-  newbie: {
-    monthly: number;
-    yearly: number;
-  }
+} & {
+    [key in keyof typeof PaymentPlansEntity]: {
+        monthly: number
+        yearly: number
+    }
 };
 
 export declare type ProductEntity = {
