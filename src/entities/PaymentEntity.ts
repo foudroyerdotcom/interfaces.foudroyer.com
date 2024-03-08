@@ -1,4 +1,5 @@
 export enum PaymentPlansEntity {
+  "indexation/free" = "indexation/free",
   indexation = "indexation",
   enterprise = "enterprise",
   newbie = "newbie",
