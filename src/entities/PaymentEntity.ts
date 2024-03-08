@@ -14,6 +14,7 @@ export const PaddlePlans: {
     interval: "monthly" | "yearly" ,
     scope: "indexation" | "analytics" ,
     level: number
+    id: string
   };
 } = {
   /**
@@ -30,12 +31,14 @@ export const PaddlePlans: {
     interval: "monthly",
     level: 1,
     scope: "indexation",
+    id: "858335"
   },
   "858337": {
     plan: PaymentPlansEntity.newbie,
     interval: "yearly",
     level: 1,
     scope: "indexation",
+    id: "858337"
   },
 
   "851087": {
@@ -43,12 +46,14 @@ export const PaddlePlans: {
     interval: "monthly",
     level: 2,
     scope: "indexation",
+    id: "851087"
   },
   "855536": {
     plan: PaymentPlansEntity.indexation,
     interval: "yearly",
     level: 2,
     scope: "indexation",
+    id: "855536"
   },
 
   "855460": {
@@ -56,12 +61,14 @@ export const PaddlePlans: {
     interval: "monthly",
     level: 3,
     scope: "indexation",
+    id: "855460"
   },
   "855537": {
     plan: PaymentPlansEntity.enterprise,
     interval: "yearly",
     level: 3,
     scope: "indexation",
+    id: "855537"
   },
   /**
    *
@@ -77,12 +84,14 @@ export const PaddlePlans: {
     interval: "monthly",
     scope: "analytics",
     level: 1,
+    id: "875973"
   },
   "875978": {
     plan: PaymentPlansEntity["analytics/beginner"],
     interval: "yearly",
     level: 1,
     scope: "analytics",
+    id: "875978"
   },
 
   "875975": {
@@ -90,12 +99,14 @@ export const PaddlePlans: {
     interval: "monthly",
     level: 2,
     scope: "analytics",
+    id: "875975"
   },
   "875979": {
     plan: PaymentPlansEntity["analytics/pro"],
     interval: "yearly",
     level: 2,
     scope: "analytics",
+    id: "875979"
   },
 
   "875976": {
@@ -103,12 +114,14 @@ export const PaddlePlans: {
     interval: "monthly",
     level: 3,
     scope: "analytics",
+    id: "875976"
   },
   "875977": {
     plan: PaymentPlansEntity["analytics/enterprise"],
     interval: "yearly",
     level: 3,
     scope: "analytics",
+    id: "875977",
   },
 };
 
