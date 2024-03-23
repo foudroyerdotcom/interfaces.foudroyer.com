@@ -31,4 +31,6 @@ export type IndexationGoogleCloudApiKeyEntity = {
   google_cloud_api_key: string
   created_at: Date;
   updated_at: Date;
+  checked_at: Date;
+  has_error: boolean;
 };
