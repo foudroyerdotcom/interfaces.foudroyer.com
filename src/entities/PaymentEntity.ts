@@ -195,4 +195,5 @@ export type PaymentEntity = {
   paddle_user_id: string;
   plan: PaymentPlansEntity;
   interval: "monthly" | "yearly";
+  paused_at: Date | null;
 };
