@@ -17,3 +17,12 @@ export class UserToGoogleSearchConsoleEntity {
   user_children_id: string;
   created_at: Date;
 }
+
+export class UserToGoogleSearchConsoleWithEmailsEntity {
+  id : number;
+  user_parent_id:string;
+  user_children_id: string;
+  created_at: Date;
+  parent_email: string;
+  children_email: string;
+}
