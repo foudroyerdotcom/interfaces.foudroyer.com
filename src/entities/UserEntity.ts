@@ -10,3 +10,10 @@ export class UserEntity {
 export type UserWithRoleEntity = UserEntity & {
   role: UserToWebsiteRoles
 }
+
+export class UserToGoogleSearchConsoleEntity {
+  id : number;
+  user_parent_id:string;
+  user_children_id: string;
+  created_at: Date;
+}
