@@ -23,6 +23,7 @@ export type IndexationQueueEntity = {
   indexation_state: IndexationType
   inspection_google_page: string | null;
   checked_indexation_state_at: Date | null;
+  fake_indexation_state_at: Date | null;
 }
 
 export type IndexationGoogleCloudApiKeyEntity = {
