@@ -4,6 +4,7 @@ export enum IndexationType {
   NOT_PROCESSED = "not-processed",
   INDEXING = "indexing",
   SUBMITTED = "submitted",
+  "first-check-done-but-not-indexed" = "first-check-done-but-not-indexed",
   "error-unknown" = "error-unknown",
 
   "indexation/error/google/inspect/permission-denied" = "indexation/error/google/inspect/permission-denied",
