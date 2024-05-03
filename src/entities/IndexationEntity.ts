@@ -34,4 +34,5 @@ export type IndexationGoogleCloudApiKeyEntity = {
   updated_at: Date;
   checked_at: Date;
   has_error: boolean;
+  is_downloadable_by_user: boolean;
 };
