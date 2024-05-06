@@ -41,5 +41,7 @@ export enum ErrorEntity {
   INDEXATION_MANUALLY_NO_WEBSITE_ID_IN_PAGE = "indexation/manually/no-website-in-page",
   INDEXATION_MANUALLY_NOT_URL = "indexation/manually/not-url",
   BING_REFRESH_TOKEN = "error/bing/refresh-token",
-  INDEXATION_WITHOUT_SEARCH_ENGINE = "error/try-to-index-without-sources"
+  INDEXATION_WITHOUT_SEARCH_ENGINE = "error/try-to-index-without-sources",
+  ANALYTICS_NEED_UPSELL = "error/ANALYTICS_NEED_UPSELL",
+  ANALYTICS_NEED_UPSELL = "error/ANALYTICS_MAXIMUM_WEBSITES"
 }
