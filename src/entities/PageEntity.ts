@@ -54,7 +54,6 @@ export class PageEntity {
 
 export class PageAddedManuallyEntity {
   url: string;
-  indexation_state: IndexationType;
   created_at: Date;
   fk_website_id: string;
 }
