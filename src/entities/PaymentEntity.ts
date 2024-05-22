@@ -3,6 +3,7 @@ export enum PaymentPlansEntity {
   indexation = "indexation",
   enterprise = "enterprise",
   newbie = "newbie",
+  "indexation/teams" = "indexation/teams",
   "analytics/free" = "analytics/free",
   "analytics/beginner" = "analytics/beginner",
   "analytics/pro" = "analytics/pro",
@@ -56,18 +57,31 @@ export const PaddlePlans: {
     scope: "indexation",
     id: "855536"
   },
-
+ "884404": {
+    plan: PaymentPlansEntity.teams,
+    interval: "monthly",
+    level: 3,
+    scope: "indexation",
+    id: "884404"
+  },
+  "884406": {
+    plan: PaymentPlansEntity.teams,
+    interval: "yearly",
+    level: 3,
+    scope: "indexation",
+    id: "884406"
+  },
   "855460": {
     plan: PaymentPlansEntity.enterprise,
     interval: "monthly",
-    level: 3,
+    level: 4,
     scope: "indexation",
     id: "855460"
   },
   "855537": {
     plan: PaymentPlansEntity.enterprise,
     interval: "yearly",
-    level: 3,
+    level: 4,
     scope: "indexation",
     id: "855537"
   },
