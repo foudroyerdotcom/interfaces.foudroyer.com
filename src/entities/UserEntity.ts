@@ -5,6 +5,8 @@ export class UserEntity {
   email: string;
   language: string;
   created_at: Date;
+  username: string | null;
+  last_connected_at: Date;
 }
 
 export type UserWithRoleEntity = UserEntity & {
