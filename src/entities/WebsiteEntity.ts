@@ -21,9 +21,6 @@ export class WebsiteEntity {
   indexation_auto_activated: boolean;
   indexation_auto_activated_sources: string[];
   google_api_keys: IndexationGoogleCloudApiKeyEntity[];
-}
-
-export type WebsiteWithChecksEntity = WebsiteEntity & {
   does_google_api_keys_have_errors: boolean;
   does_sitemaps_have_errors: boolean;
 }
