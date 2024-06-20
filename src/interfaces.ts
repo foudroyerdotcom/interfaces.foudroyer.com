@@ -11,3 +11,4 @@ export * from "./entities/WebsiteGoogleCloudApiKeyEntity";
 export * from "./entities/PaymentEntity";
 export * from "./entities/IndexationEntity";
 export * from "./entities/OpportunityEntity";
+export * from "./entities/LogsEntity";
