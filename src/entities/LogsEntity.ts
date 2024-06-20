@@ -5,8 +5,6 @@ type LogsBaseEntity = {
   title: string
   description: string
 
-  tags: string[]
-
   log_date: Date
 
   created_at: Date
