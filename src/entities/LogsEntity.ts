@@ -11,7 +11,13 @@ type LogsBaseEntity = {
   updated_at: Date
 
   clicks: number | null
+  previous_clicks: number | null
+  
   impressions: number | null
+  previous_impressions: number | null
+  
+  position: number | null
+  previous_position: number | null
 
   synced_at: Date
 }
