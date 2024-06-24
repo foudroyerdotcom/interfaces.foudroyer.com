@@ -12,6 +12,8 @@ type LogsBaseEntity = {
 
   clicks: number | null
   impressions: number | null
+
+  synced_at: Date
 }
 
 type LogQueryEntity = {
