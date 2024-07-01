@@ -31,7 +31,8 @@ export enum IndexationType {
   "duplicate-google-chose-different-canonical-than-user" = "duplicate-google-chose-different-canonical-than-user",
   "page-with-redirect" = "page-with-redirect",
   "blocked-other-4xx-issue" = "blocked-other-4xx-issue",
-  "blocked-401" = "blocked-401"
+  "blocked-401" = "blocked-401",
+  "checking-indexation-state" = "checking-indexation-state"
 }
 
 export enum IndexationSourceType {
