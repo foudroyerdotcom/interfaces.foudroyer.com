@@ -7,6 +7,7 @@ export class UserEntity {
   created_at: Date;
   username: string | null;
   last_connected_at: Date;
+  welcome_email_sent_at: Date | null;
 }
 
 export type UserWithRoleEntity = UserEntity & {
