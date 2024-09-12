@@ -210,4 +210,5 @@ export type PaymentEntity = {
   plan: PaymentPlansEntity;
   interval: "monthly" | "yearly";
   paused_at: Date | null;
+  why_canceled: string | null;
 };
