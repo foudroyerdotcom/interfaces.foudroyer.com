@@ -4,6 +4,7 @@ export type IndexationSettingsEntity = {
   pfk_website_id: string;
   indexation_auto_activated: boolean;
   sources: Array<"google" | "yandex" | "naver" | "bing">
+  indexation_auto_update_pages_activated: boolean;
 }
 
 export enum IndexationQueueStatus {
