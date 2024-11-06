@@ -30,4 +30,5 @@ export class WebsiteEntity {
   does_sitemaps_have_errors: boolean;
   sitemap_region_proxy: SitemapRegionProxies;
   indexation_auto_update_pages_activated: boolean;
+  sitemaps_length: number;
 }
