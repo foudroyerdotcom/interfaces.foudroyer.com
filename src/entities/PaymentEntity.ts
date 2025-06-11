@@ -215,6 +215,6 @@ export type PaymentEntity = {
   created_at: Date;
   paddle_user_id: string;
   plan: PaymentPlansEntity;
-  interval: "monthly" | "yearly";
+  interval: "monthly" | "yearly" | "lifetime";
   paused_at: Date | null;
 };
