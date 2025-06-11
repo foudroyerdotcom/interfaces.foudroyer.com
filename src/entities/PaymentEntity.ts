@@ -57,12 +57,12 @@ export const PaddlePlans: {
     scope: "indexation",
     id: "855536"
   },
-  "911727": {
+  "911773": {
     plan: PaymentPlansEntity.indexation,
     interval: "lifetime",
     level: 2,
     scope: "indexation",
-    id: "911727" 
+    id: "911773" 
   },
  "884404": {
     plan: PaymentPlansEntity["indexation/teams"],
