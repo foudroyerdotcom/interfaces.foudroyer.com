@@ -13,8 +13,8 @@ export enum PaymentPlansEntity {
 export const PaddlePlans: {
   [key: string]: { 
     plan: PaymentPlansEntity; 
-    interval: "monthly" | "yearly" ,
-    scope: "indexation" | "analytics" ,
+    interval: "monthly" | "yearly" | "lifetime",
+    scope: "indexation" | "analytics",
     level: number
     id: string
   };
@@ -56,6 +56,13 @@ export const PaddlePlans: {
     level: 2,
     scope: "indexation",
     id: "855536"
+  },
+  "911727": {
+    plan: PaymentPlansEntity.indexation,
+    interval: "lifetime",
+    level: 2,
+    scope: "indexation",
+    id: "911727" 
   },
  "884404": {
     plan: PaymentPlansEntity["indexation/teams"],
