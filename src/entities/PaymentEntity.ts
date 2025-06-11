@@ -169,6 +169,7 @@ export type PaymentPricesEntity = {
   [key in keyof typeof PaymentPlansEntity]: {
     monthly: number;
     yearly: number;
+    lifetime: number;
   };
 };
 
