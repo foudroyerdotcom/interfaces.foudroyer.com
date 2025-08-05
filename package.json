@@ -19,10 +19,13 @@
     "@semantic-release/release-notes-generator": "^10.0.3",
     "rimraf": "^3.0.2",
     "semantic-release": "^19.0.2",
-    "typescript": "^4.6.3"
+    "typescript": "^5.9.2"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/foudroyerdotcom/interfaces.foudroyer.com.git"
+  },
+  "dependencies": {
+    "zod": "^4.0.14"
   }
 }
