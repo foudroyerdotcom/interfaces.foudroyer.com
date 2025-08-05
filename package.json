@@ -24,8 +24,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/foudroyerdotcom/interfaces.foudroyer.com.git"
-  },
-  "dependencies": {
-    "zod": "^4.0.14"
   }
 }
