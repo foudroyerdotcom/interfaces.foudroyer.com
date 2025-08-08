@@ -13,4 +13,4 @@ export * from "./entities/IndexationEntity";
 export * from "./entities/OpportunityEntity";
 export * from "./entities/LogsEntity";
 export * from "./entities/SitemapEntity";
-export * from "./dto/keywords_create_keywords_dto";
+export * from "./dto/keywords_dtos";
