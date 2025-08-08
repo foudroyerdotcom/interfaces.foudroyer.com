@@ -1,6 +1,17 @@
+export const keywords_dtos_endpoints = {
+  create_keywords: "/keywords/create_keywords",
+  delete_keywords: "/keywords/delete_keywords",
+  get_keywords: "/keywords/get_keywords",
+  get_keyword_with_position: "/keywords/get_keyword_with_position",
+  create_website: "/keywords/create_website",
+  delete_website: "/keywords/delete_website",
+  get_websites: "/keywords/get_websites",
+  get_gsc_websites: "/keywords/get_gsc_websites",
+} as const;
+
 export type keywords_dtos = {
   create_keywords: {
-    url: "/keywords/create_keywords";
+    url: typeof keywords_dtos_endpoints.create_keywords;
     input: {
       website_id: string;
       keywords: string[];
@@ -8,7 +19,7 @@ export type keywords_dtos = {
     output: {};
   };
   detele_keywords: {
-    url: "/keywords/detele_keywords";
+    url: typeof keywords_dtos_endpoints.delete_keywords;
     input: {
       website_id: string;
       keyword_ids: string[];
@@ -16,7 +27,7 @@ export type keywords_dtos = {
     output: {};
   };
   get_keywords: {
-    url: "/keywords/get_keywords";
+    url: typeof keywords_dtos_endpoints.get_keywords;
     input: {
       website_id: string;
     };
@@ -28,7 +39,7 @@ export type keywords_dtos = {
     };
   };
   get_keyword_with_position: {
-    url: "/keywords/get_keyword_with_position";
+    url: typeof keywords_dtos_endpoints.get_keyword_with_position;
     input: {
       website_id: string;
       filter?: {
@@ -53,7 +64,7 @@ export type keywords_dtos = {
     }[];
   };
   create_website: {
-    url: "/keywords/create_website";
+    url: typeof keywords_dtos_endpoints.create_website;
     input: {
       google_search_console_property: string;
     };
@@ -63,14 +74,14 @@ export type keywords_dtos = {
     };
   };
   delete_website: {
-    url: "/keywords/delete_website";
+    url: typeof keywords_dtos_endpoints.delete_website;
     input: {
       website_id: string;
     };
     output: {};
   };
   get_websites: {
-    url: "/keywords/get_websites";
+    url: typeof keywords_dtos_endpoints.get_websites;
     input: {};
     output: {
       websites: {
@@ -80,7 +91,7 @@ export type keywords_dtos = {
     };
   };
   get_gsc_websites: {
-    url: "/keywords/get_gsc_websites";
+    url: typeof keywords_dtos_endpoints.get_gsc_websites;
     input: {};
     output: {
       websites: {
