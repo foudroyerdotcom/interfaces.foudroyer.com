@@ -14,3 +14,4 @@ export * from "./entities/OpportunityEntity";
 export * from "./entities/LogsEntity";
 export * from "./entities/SitemapEntity";
 export * from "./dto/keywords_dtos";
+export * from "./dto/roast_dto";
